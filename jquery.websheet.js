@@ -1,3 +1,5 @@
+// Copyright 2013 Stéphane Lavergne <http://www.imars.com/> Free software under <http://www.gnu.org/licenses/lgpl-3.0.txt>
+
 /**
  * jQuery Websheet
  *
