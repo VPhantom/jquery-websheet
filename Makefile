@@ -9,6 +9,9 @@ clean:
 
 all:	clean $(patsubst %.js,%.min.js,$(wildcard *.js))
 
+test:
+	$(JSLINT) jquery.websheet.js
+
 %.min.js:	%.js
 	$(JS) -o $@ -- $<
 
